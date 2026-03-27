@@ -68,8 +68,8 @@ if ! echo "$PATH" | grep -q "$INSTALL_DIR"; then
 fi
 
 echo ""
-echo "agent-hub installed to ${INSTALL_DIR}/agent-hub"
+echo "agent-hub installed!"
 echo ""
-echo "Run 'source ${RC_FILE}' or open a new terminal, then:"
-echo "  agent-hub login"
+echo "To start using it, run:"
+echo "  source ${RC_FILE} && agent-hub login"
 echo ""
